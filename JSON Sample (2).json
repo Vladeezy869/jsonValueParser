@@ -1,0 +1,178 @@
+{
+    "_id" : "606c1b63f918c1e61ac96999",
+    "header" : {
+        "internalEventId" : "e659700a-e8ea-4681-a9c5-d6deb8856e6d",
+        "orgId" : "89aafe20-780f-46ec-aaa0-a2d95bae542e",
+        "service" : "mso365-exchange",
+        "eventType" : "shared_content",
+        "externalEventType" : "Email",
+        "application" : "exchange_365",
+        "externalApplication" : "MS Exchange 365",
+        "serviceScope" : "65a1678f-e343-44a5-8c41-c51024828e11",
+        "eventTime" : "2019-03-25T12:14:38Z",
+        "uid" : "24d67acf-2c46-419a-bde3-847b11451141"
+    },
+    "__v" : 1,
+    "data" : {
+        "trustValue" : 1,
+        "riskValue" : 0.9,
+        "sensitivity" : 0,
+        "connections" : [ 
+            {
+                "id" : "04EBCF93553EFABA45AD9C372EB3F8E5",
+                "weight" : 1.3000001,
+                "sourceKey" : "d5f24583-7595-6d41-0760-a5d11b8be7cf",
+                "targetKey" : "887a6680-ddf8-cf9a-804d-a7d4646f8024",
+                "anomaly" : "connection weaker than threshold"
+            }, 
+            {
+                "id" : "0EEB0EB770C9C28DF6B276BB770ED72D",
+                "weight" : 0.3,
+                "sourceKey" : "d5f24583-7595-6d41-0760-a5d11b8be7cf",
+                "targetKey" : "b772d740-1d66-a861-3090-c45d8627723f",
+                "anomaly" : "connection weaker than threshold"
+            }
+        ],
+        "severity" : 0
+    },
+    "insights" : [ 
+        {
+            "insightId" : "4a54570e-5eb2-478b-ba8f-4a0c8ef4fb28",
+            "name" : "General content, Shared inside the organization",
+            "severity" : 0,
+            "description" : "Shared inside the organization",
+            "recommendation" : ""
+        }, 
+        {
+            "insightId" : "9d00cf1f-b368-47e3-83f6-2924ba9e1b2c",
+            "name" : "General content, Shared inside the organization, Anomalously",
+            "severity" : 0,
+            "description" : "Shared Inside the organization, Anomaly",
+            "recommendation" : ""
+        }
+    ],
+
+    "labels" : [ 
+        {
+            "_id" : "606c1b63bb9f8f00114296bc",
+            "id" : "2d5674db-b1db-4b6f-b2bd-3128edd30ae6",
+            "labelCategory" : "Motion",
+            "labelName" : "Event Not Sensitive"
+        }, 
+        {
+            "_id" : "606c1b63bb9f8f00114296bd",
+            "id" : "93bff843-fb83-46e6-a802-7ecdbcd6431d",
+            "labelCategory" : "Motion",
+            "labelName" : "Event Is Anomaly"
+        }, 
+        {
+            "_id" : "606c1b63bb9f8f00114296be",
+            "id" : "c28c9407-e599-48ab-a4e1-9b316981ec6a",
+            "labelCategory" : "Motion",
+            "labelName" : "Event Shared Inside the organization"
+        }
+    ],
+    "objects" : [ 
+        {
+            "_id" : "606c1b63bb9f8f00114296bf",
+            "objectCategory" : "Event",
+            "objectType" : "activity",
+            "externalObjectType" : "Email",
+            "externalObjectId" : "AAMkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgBGAAAAAABblea8V9WlQIfxtwK3ol55BwBXJWrqD710RooOkLQtM_hvAAAAAAEJAABXJWrqD710RooOkLQtM_hvAACPJhwNAAA=",
+            "relation" : "Information",
+            "externalRelation" : "none",
+            "labels" : null,
+            "internalObjectId" : "485aec33-75fc-c882-0e1d-e08dcbba9162",
+            "externalIdentifier" : "{\"userId\":\"amir@shieldox.com\",\"messageId\":\"AAMkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgBGAAAAAABblea8V9WlQIfxtwK3ol55BwBXJWrqD710RooOkLQtM_hvAAAAAAEJAABXJWrqD710RooOkLQtM_hvAACPJhwNAAA=\"}",
+            "externalHash" : "F24128B8EB3F9B48FF260482DC477358",
+            "objectName" : "asdfads",
+            "extendedData" : "{\"exposedPersonCount\":1,\"externalThreadId\":\"AAQkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgAQAG3opZ98CClGo1uc8Tc_Vno=\",\"externalThreadIndex\":\"AQHU4wRPbeiln3wIKUajW5zxNz5Weg==\",\"internetMessageId\":\"<HE1P190MB0473B528C68226A11C5B75A1AA5E0@HE1P190MB0473.EURP190.PROD.OUTLOOK.COM>\",\"exposedBy\":{\"externalObjectId\":\"amir@shieldox.com\",\"objectName\":\"Amir Zietman\",\"emailAddress\":\"amir@shieldox.com\"},\"someExposedToRefs\":[{\"externalObjectId\":\"tomer@shieldox.com\",\"objectName\":\"Tomer Zaks\",\"emailAddress\":\"tomer@shieldox.com\"}],\"someContentItemRefs\":[{\"externalObjectId\":\"AAMkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgBGAAAAAABblea8V9WlQIfxtwK3ol55BwBXJWrqD710RooOkLQtM_hvAAAAAAEJAABXJWrqD710RooOkLQtM_hvAACPJhwNAAABEgAQAKV94a4w9yFDgRvtJwIMMTg=\",\"objectName\":\"For Stas2.docx\"}],\"contentItemCount\":1}"
+        }, 
+        {
+            "_id" : "606c1b63bb9f8f00114296c0",
+            "objectCategory" : "Content",
+            "objectType" : "file",
+            "externalObjectType" : "Attachment",
+            "externalObjectId" : "AAMkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgBGAAAAAABblea8V9WlQIfxtwK3ol55BwBXJWrqD710RooOkLQtM_hvAAAAAAEJAABXJWrqD710RooOkLQtM_hvAACPJhwNAAABEgAQAKV94a4w9yFDgRvtJwIMMTg=",
+            "relation" : "Attached",
+            "externalRelation" : "attached",
+            "labels" : [ 
+                {
+                    "_id" : "606c1b63bb9f8f00114296c1",
+                    "id" : "54651672-e709-4277-931d-02e373a0f2d8",
+                    "labelCategory" : "Virtual",
+                    "labelName" : "Object Not Sensitive"
+                }, 
+                {
+                    "_id" : "606c1b63bb9f8f00114296c2",
+                    "id" : "d5f24583-7595-6d41-0760-a5d11b8be7cf",
+                    "labelCategory" : "Content",
+                    "labelName" : "Other"
+                }
+            ],
+            "internalObjectId" : "3d9fd3ca-d904-3aa5-eeac-67d54b85eb31",
+            "externalIdentifier" : "{\"attachmentId\":\"AAMkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgBGAAAAAABblea8V9WlQIfxtwK3ol55BwBXJWrqD710RooOkLQtM_hvAAAAAAEJAABXJWrqD710RooOkLQtM_hvAACPJhwNAAABEgAQAKV94a4w9yFDgRvtJwIMMTg=\",\"userId\":\"amir@shieldox.com\",\"messageId\":\"AAMkAGRiZGExNTJhLTA5OTktNDkzZS1hYWZjLWJkMDAyNzdmOTVkMgBGAAAAAABblea8V9WlQIfxtwK3ol55BwBXJWrqD710RooOkLQtM_hvAAAAAAEJAABXJWrqD710RooOkLQtM_hvAACPJhwNAAA=\",\"name\":\"For Stas2.docx\"}",
+            "externalHash" : "5859D5BB7891229B3FA877642EFE77BE",
+            "objectName" : "For Stas2.docx",
+            "data" : {
+                "clusterId" : "8ce288d1-0aff-6bba-6983-99bb95e95718",
+                "sensitivity" : 0
+            },
+            "extendedData" : "{\"exposedBy\":{\"externalObjectId\":\"amir@shieldox.com\",\"objectName\":\"Amir Zietman\",\"emailAddress\":\"amir@shieldox.com\"},\"someExposedToRefs\":[{\"externalObjectId\":\"tomer@shieldox.com\",\"objectName\":\"Tomer Zaks\",\"emailAddress\":\"tomer@shieldox.com\"}],\"exposedPersonCount\":1}",
+            "extendedProperties" : {
+                "fileExtension" : ".docx",
+                "topics" : [ 
+                    "text"
+                ]
+            }
+        }, 
+        {
+            "_id" : "606c1b63bb9f8f00114296c3",
+            "objectCategory" : "Entity",
+            "objectType" : "person",
+            "externalObjectType" : "User",
+            "externalObjectId" : "amir@shieldox.com",
+            "relation" : "Exposed_by",
+            "externalRelation" : "from",
+            "labels" : null,
+            "internalObjectId" : "b772d740-1d66-a861-3090-c45d8627723f",
+            "externalIdentifier" : "{\"userId\":\"amir@shieldox.com\"}",
+            "externalHash" : "0B0C593122BF577CF30DC2D8D5D0303B",
+            "objectName" : "Amir Zietman",
+            "extendedData" : "{\"emailAddress\":\"amir@shieldox.com\",\"displayName\":\"Amir Zietman\"}",
+            "extendedProperties" : {
+                "isInternal" : true,
+                "emailAddress" : "amir@shieldox.com",
+                "topics" : []
+            }
+        }, 
+        {
+            "_id" : "606c1b63bb9f8f00114296c4",
+            "objectCategory" : "Entity",
+            "objectType" : "person",
+            "externalObjectType" : "User",
+            "externalObjectId" : "tomer@shieldox.com",
+            "relation" : "Exposed_to",
+            "externalRelation" : "to",
+            "labels" : null,
+            "internalObjectId" : "887a6680-ddf8-cf9a-804d-a7d4646f8024",
+            "externalIdentifier" : "{\"userId\":\"tomer@shieldox.com\"}",
+            "externalHash" : "B0F59BE6576FA98CF3CB7DCB43714DA7",
+            "objectName" : "Tomer Zaks",
+            "extendedData" : "{\"emailAddress\":\"Tomer@shieldox.com\",\"displayName\":\"Tomer Zaks\"}",
+            "extendedProperties" : {
+                "isInternal" : true,
+                "emailAddress" : "Tomer@shieldox.com",
+                "topics" : []
+            }
+        }
+    ],
+    "timeScope" : {
+        "day" : 17976,
+        "week" : 2568,
+        "month" : 590,
+        "quarter" : 147,
+        "total" : 1
+    },
+    "timestamp" : "Timestamp(1617697635, 686)"
+}
